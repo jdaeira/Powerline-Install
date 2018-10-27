@@ -13,7 +13,7 @@ sudo pacman -S python-pip --noconfirm --needed
 sudo pip install --upgrade pip
 
 # Install Powerline Fonts
-yaourt -S powerline-fonts --noconfirm --needed
+yay -S --noconfirm powerline-fonts
 
 # Install Powerline Shell
 sudo pip install powerline-shell
