@@ -4,17 +4,17 @@ from powerline_shell.themes.default import DefaultColor
 class Color(DefaultColor):
     """Basic theme which only uses colors in 0-15 range"""
     USERNAME_FG = 0
-    USERNAME_BG = 82
+    USERNAME_BG = 112   
     USERNAME_ROOT_BG = 0
 
     HOSTNAME_FG = 0
-    HOSTNAME_BG = 82
+    HOSTNAME_BG = 112
 
     HOME_SPECIAL_DISPLAY = False
     PATH_BG = 75  # dark grey
     PATH_FG = 15  # light grey
     CWD_FG = 15  # white
-    SEPARATOR_FG = 7
+    SEPARATOR_FG = 15
 
     READONLY_BG = 1
     READONLY_FG = 15
